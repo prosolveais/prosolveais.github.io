@@ -61,9 +61,3 @@ $('#registration-form').submit(function(e){
                         }
         });
 });
-
-/*
- * SmoothScroll
-*/
-
-smoothScroll.init();
