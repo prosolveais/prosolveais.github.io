@@ -243,6 +243,7 @@ ul li {
     text-align: left;
   }
 }
+
 /* 
  * 4.0 Navigation
  */
@@ -394,6 +395,9 @@ ul li {
 /* 
  * 6.6 Section: Schedule
  */
+.schedule {
+  background: #f8f8f8;
+}
 .schedule-box {
   position: relative;
   background-color: #000;
@@ -490,6 +494,13 @@ ul li {
   display: block;
   text-decoration: none;
   padding: 15px 15px 15px 35px;
+}
+
+/*
+ * 6.9 Section: Location
+ */
+.location {
+  background: #f8f8f8;
 }
 
 /* 
