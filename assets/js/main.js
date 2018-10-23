@@ -66,4 +66,4 @@ $('#registration-form').submit(function(e){
  * SmoothScroll
 */
 
-smoothScroll.init();
+var scroll = new SmoothScroll('a[data-scroll]');
