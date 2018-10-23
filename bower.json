@@ -23,6 +23,7 @@
     "jquery": "~2.1.4",
     "ionicons": "~2.0.1",
     "isotope": "~2.2.1",
-    "smooth-scroll.js": "~14.2.1"
+    "smooth-scroll.js": "~14.2.1",
+    "jquery.countdown": "~2.2.0"
   }
 }
