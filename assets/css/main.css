@@ -379,20 +379,31 @@ ul li {
   margin-bottom: 25px;
 }
 
-.about .first-place {
+/*
+ * 6.2 Section: Prize
+ */
+ .prize {
+   background: #f8f8f8;
+ }
+
+ .prize .thumbnail {
+   background: #f8f8f8;
+ }
+
+ .prize .first-place {
   width: 30%;
 }
 
-.about .second-place {
+.prize .second-place {
   width: 20%;
 }
 
-.about .third-place {
+.prize .third-place {
   width: 20%;
 }
 
 /* 
- * 6.2 Section: Facts
+ * 6.3 Section: Facts
  */
 .facts i {
   color: #fff;
@@ -405,7 +416,7 @@ ul li {
 }
 
 /* 
- * 6.6 Section: Schedule
+ * 6.4 Section: Schedule
  */
 .schedule {
   background: #f8f8f8;
@@ -434,7 +445,7 @@ ul li {
 }
 
 /* 
- * 6.7 Section: Partner
+ * 6.5 Section: Partner
  */
 .partner {
   background-color: #f8f8f8;
@@ -477,14 +488,14 @@ ul li {
 }
 
 /*
- * 6.8 Section: Payment
+ * 6.6 Section: Payment
  */
 .payment .section-title {
   margin: 0 0 25px;
 }
 
 /* 
- * 6.9 Section: FAQ
+ * 6.7 Section: FAQ
  */
 .faq {
   background: #f8f8f8;
@@ -654,8 +665,4 @@ ul li {
 
 .thumbnail {
   border: none;
-}
-
-.panel-body {
-  height: 96px;
 }

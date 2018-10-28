@@ -1,16 +1,8 @@
 {
-  "name": "conference",
+  "name": "prosolve-webite",
   "version": "1.0.0",
-  "authors": [
-    "Technext Limited <info@technextit.com>"
-  ],
-  "description": "Responsive HTML5 Bootstrap 3 template for Event Site",
   "main": "index.html",
-  "keywords": [
-    "conference"
-  ],
   "license": "GNU GENERAL PUBLIC LICENSE Version 3",
-  "homepage": "https://github.com/technext/conference",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -22,7 +14,6 @@
     "bootstrap": "~3.3.5",
     "jquery": "~2.1.4",
     "ionicons": "~2.0.1",
-    "isotope": "~2.2.1",
     "smooth-scroll.js": "~14.2.1",
     "jquery.countdown": "~2.2.0"
   }
