@@ -31,7 +31,7 @@ var scroll = new SmoothScroll('a[data-scroll]');
  * Website countdown
  */
 
-$('#defaultCountdown').countdown('2018/11/18 07:30:00', function(event) {
+$('#defaultCountdown').countdown('2018/11/25 07:30:00', function(event) {
     $('#days').html(event.offset.totalDays);
     $('#hours').html(event.offset.hours);
     $('#minutes').html(event.offset.minutes);
