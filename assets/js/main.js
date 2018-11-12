@@ -37,3 +37,8 @@ $('#defaultCountdown').countdown('2018/11/25 07:30:00', function(event) {
     $('#minutes').html(event.offset.minutes);
     $('#seconds').html(event.offset.seconds);
 });
+
+/*
+ * Announcement Modal Activation
+ */
+$("#announcementModal").modal("show");

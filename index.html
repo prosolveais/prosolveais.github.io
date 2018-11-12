@@ -56,7 +56,8 @@
             <footer><cite title="John Johnson">- John Johnson</cite></footer>
             <br>
 
-            <a class="btn btn-white" target="_blank" href="https://goo.gl/forms/L8q3cBjsXwC6RKxZ2">Register Now</a>
+            <a class="btn btn-white disabled" target="_blank" href="https://goo.gl/forms/L8q3cBjsXwC6RKxZ2">Registration
+                Closed</a>
         </div>
     </header>
 
@@ -281,7 +282,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <i class="ion-ios-people"></i>
-                    <h3>25<br>Teams</h3>
+                    <h3>36<br>Teams</h3>
                 </div>
                 <div class="col-sm-4">
                     <i class="ion-cash"></i>
@@ -442,10 +443,11 @@
 
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingCoach">
-                                <h4 class="panel-title"><a href="#collapseCoach" class="faq-toggle collapsed" role="button"
-                                        data-toggle="collapse" data-parent="#accordiion">Who is 'Team Coach'?</a></h4>
+                                <h4 class="panel-title">
+                                    <a href="#collapseCoach" class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                        data-parent="#accordion" aria-expanded="true">Who is 'Team Coach'?</a></h4>
                             </div>
-                            <div class="panel-collapse collapse" role="tabpanel" id="collapseCoach">
+                            <div class="panel-collapse collapse" role="tabpanel" id="collapseCoach" aria-labelledby="headingCoach">
                                 <div class="panel-body mb0">
                                     <p>Person who trains or instruct a team. A coach can be any person such as lecturer
                                         or student, but it's preferable to have lectuer as your coach.</p>
@@ -496,33 +498,56 @@
                                         </li>
                                         <li>IDEs:
                                             <ul>
-                                                <li>PyCharm (Version: TBD)</li>
-                                                <li>CLion (Version: TBD)</li>
-                                                <li>IntelliJ IDEA (Version: TBD)</li>
                                                 <li>Apache NetBeans (Version: 9.0)</li>
-                                                <li>Code::Blocks (Version: 17.12)</li>
+                                                <li>Code::Blocks (Version: 16.02)</li>
+                                                <li>CLion (Version: 2018.2.5)</li>
+                                                <li>IntelliJ IDEA (Version: 2018.2.5)</li>
+                                                <li>PyCharm (Version: 2018.2.4)</li>
                                             </ul>
                                         </li>
                                         <li>Languages:
                                             <ul>
-                                                <li>Java
+                                                <li>Java<br>
                                                     <ul>
-                                                        <li>TBD</li>
+                                                        <li>
+                                                            <samp>openjdk 11 2018-09-25<br>
+                                                                OpenJDK Runtime Environment (build
+                                                                11+28-Ubuntu-3ubuntu2)<br>
+                                                                OpenJDK 64-Bit Server VM (build 11+28-Ubuntu-3ubuntu2,
+                                                                mixed
+                                                                mode, sharing)
+                                                            </samp>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li>Python
                                                     <ul>
-                                                        <li>TBD</li>
+                                                        <li>
+                                                            <samp>
+                                                                Python 2.7.15+ (default, Oct 2 2018, 22:12:08)<br>
+                                                                [GCC 8.2.0] on linux2
+                                                            </samp>
+                                                        </li>
+                                                        <li>
+                                                            <samp>
+                                                                Python 3.6.7rc1 (default, Sep 27 2018, 09:51:25)<br>
+                                                                [GCC 8.2.0] on linux
+                                                            </samp>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li>C
                                                     <ul>
-                                                        <li>TBD</li>
+                                                        <li>
+                                                            <samp>gcc (Ubuntu 8.2.0-7ubuntu1) 8.2.0</samp>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li>C++
                                                     <ul>
-                                                        <li>TBD</li>
+                                                        <li>
+                                                            <samp>g++ (Ubuntu 8.2.0-7ubuntu1) 8.2.0</samp>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -634,6 +659,40 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="announcementModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Registration has been Closed!</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="assets/images/backgrounds/coding-banner.jpg" alt="Programming Banner">
+                    <hr>
+                    <h3>Hi, everyone!</h3>
+
+                    <p>Due to the massive feedback and registration, the total number of teams have been increased.
+                        However, all the spots
+                        provided have been filled up and we have reached the limit of the quota. Therefore, the
+                        registration for Prosolve 2018
+                        has been closed and we are not receiving any more registrations. The due date is no longer
+                        valid and any further
+                        registration made will not be included.</p>
+
+                    <p>Thank you, everyone, for your overwhelming response and to those of you who missed the chance to
+                        save a spot, we hope
+                        to see you again in the future!</p>
+
+                    <p>To those who have registered, we are looking forward to meeting all of you.
+                        Good luck! Be the best, beat the rest!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-block btn-success" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

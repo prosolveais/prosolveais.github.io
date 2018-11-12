@@ -180,6 +180,10 @@ ul li {
   margin-top: 20px;
 }
 
+.margin-0-auto {
+  margin: 0 auto;
+}
+
 /* 
  * 3.3 Helper Class: list
  */
